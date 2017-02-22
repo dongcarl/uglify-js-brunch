@@ -7,13 +7,13 @@
   "keywords": ["brunchplugin", "uglify", "uglify-js", "optimizer"],
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/uglify-js-brunch.git"
+    "url": "git@github.com:dongcarl/uglify-js-brunch.git"
   },
   "scripts": {
     "test": "eslint index.js && mocha"
   },
   "dependencies": {
-    "uglify-js": "~2.6.1"
+    "uglify-js-harmony": "~2.7.5"
   },
   "devDependencies": {
     "chai": "~1.9.0",
