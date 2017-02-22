@@ -1,6 +1,6 @@
 'use strict';
 
-const uglify = require('uglify-js');
+const uglify = require('uglify-js-harmony');
 
 const formatError = (error) => {
   const err = new Error(`L${error.line}:${error.col} ${error.message}`);
